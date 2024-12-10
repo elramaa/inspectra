@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Varela+Round&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    background: url("bg.png");
+    backdrop-filter: saturate(80%);
+    background-size: cover;
+  }
+  ::-webkit-scrollbar {
+    @apply w-2 bg-gray-400;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply bg-slate-900 rounded-full;
+  }
+}
