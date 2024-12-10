@@ -1,26 +1,24 @@
-import { useState } from "react";
 import { sinopsisCerpen } from "../constant";
 import { motion, useMotionValue } from "motion/react";
 
 const DRAG_BUFFER = 50;
 
-export default function CardSlider({ className }) {
-  const [cardIndex, setCardIndex] = useState(0);
+export default function CardSlider({ className, bookIndex, setBookIndex }) {
   const dragX = useMotionValue(0);
 
   function handleDragStart() {}
 
   function handleDragEnd() {
     const x = dragX.get();
-    if (x <= DRAG_BUFFER && cardIndex < sinopsisCerpen.length - 1) {
-      setCardIndex((i) => i + 1);
-    } else if (x >= DRAG_BUFFER && cardIndex > 0) {
-      setCardIndex((i) => i - 1);
+    if (x <= DRAG_BUFFER && bookIndex < sinopsisCerpen.length - 1) {
+      setBookIndex((i) => i + 1);
+    } else if (x >= DRAG_BUFFER && bookIndex > 0) {
+      setBookIndex((i) => i - 1);
     }
   }
 
   return (
-    <div className="relative h-full w-[90vw] lg:w-[30vw] appearance-none">
+    <div className="relative h-[80vh] w-[90vw] lg:w-[30vw] appearance-none mx-auto">
       <motion.div
         drag="x"
         dragConstraints={{
@@ -31,7 +29,7 @@ export default function CardSlider({ className }) {
           x: dragX,
         }}
         animate={{
-          left: `-${100 * cardIndex}%`,
+          left: `-${100 * bookIndex}%`,
         }}
         transition={{
           type: "spring",
@@ -45,12 +43,12 @@ export default function CardSlider({ className }) {
       >
         {sinopsisCerpen.map(({ title, author, content }, index) => (
           <Card
-            key={title}
+            key={index}
             title={title}
             author={author}
             content={content}
             index={index}
-            currentIndex={cardIndex}
+            currentIndex={bookIndex}
           />
         ))}
       </motion.div>
@@ -86,7 +84,7 @@ function Card({ title, author, content, index, currentIndex }) {
         perspective: 500,
         ...styledAnimation(),
       }}
-      className="w-[90vw] lg:w-[30vw] h-full text-center bg-white rounded-2xl px-8 py-8 shadow-black shadow-lg"
+      className="w-[90vw] lg:w-[32.5vw] h-full text-center bg-white rounded-2xl px-8 py-8 shadow-black shadow-lg"
     >
       <h3 className="font-bold text-2xl">{title}</h3>
       <span className="block font-extralight">{author}</span>

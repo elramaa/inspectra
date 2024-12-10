@@ -1,6 +1,6 @@
 export default function Landing() {
   return (
-    <section className="w-full lg:h-[85vh] flex max-sm:flex-col justify-center items-center px-8  place-self-center text-white">
+    <section className="w-full lg:h-[85vh] flex max-sm:flex-col justify-center items-center px-8  place-self-center text-red-800">
       <div className="lg:w-2/5 max-sm:pt-20 p-12">
         <img src="mockup_book.png" alt="Mockup Book" className="object-cover" />
       </div>
