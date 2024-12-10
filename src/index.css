@@ -6,7 +6,7 @@
 
 @layer base {
   body {
-    background: url("bg.png");
+    background: url("/bg.png");
     backdrop-filter: saturate(80%);
     background-size: cover;
   }
