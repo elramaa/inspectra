@@ -178,43 +178,7 @@ const sinopsisCerpen = [
     author: "Salma Pramesti Chandraneswari",
     title: "Tiga Langkah Terakhir di Bedengan",
     content:
-      "Ketika Sakha dan teman-temannya berkemah di Bedengan, mereka tidak menyangka",
-  },
-  {
-    author:
-      "akan menghadapi kejadian di luar nalar. Jeritan misterius di tengah malam membawa",
-    title: "",
-    content: "",
-  },
-  {
-    author:
-      "mereka pada teka-teki aneh yang mengungkap legenda arwah anak kecil yang",
-    title: "",
-    content: "",
-  },
-  {
-    author:
-      "gentayangan. Sakha, seorang indigo, menyadari kehadiran makhluk tak kasatmata",
-    title: "",
-    content: "",
-  },
-  {
-    author:
-      "yang mengawasi mereka sejak awal. Untuk keluar hidup-hidup, mereka harus mengikuti petunjuk yang menuntut pengorbanan besar. Namun, pilihan Sakha",
-    title: "",
-    content: "",
-  },
-  {
-    author:
-      "membawa mereka pada akhir yang tak terduga dan mengubah segalanya. Apakah",
-    title: "",
-    content: "",
-  },
-  {
-    author:
-      "mereka benar-benar selamat, atau malah terjebak selamanya di tempat itu?",
-    title: "",
-    content: "",
+      "Ketika Sakha dan teman-temannya berkemah di Bedengan, mereka tidak menyangka akan menghadapi kejadian di luar nalar. Jeritan misterius di tengah malam membawa mereka pada teka-teki aneh yang mengungkap legenda arwah anak kecil yang gentayangan. Sakha, seorang indigo, menyadari kehadiran makhluk tak kasat mata yang mengawasi mereka sejak awal. Untuk keluar hidup-hidup, mereka harus mengikuti petunjuk yang menuntut pengorbanan besar. Namun, pilihan Sakha membawa mereka pada akhir yang tak terduga dan mengubah segalanya. Apakah mereka benar-benar selamat, atau malah terjebak selamanya di tempat itu?",
   },
   {
     author: "Sarah Audifa Savina",
