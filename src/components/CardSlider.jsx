@@ -18,7 +18,7 @@ export default function CardSlider({ className, bookIndex, setBookIndex }) {
   }
 
   return (
-    <div className="relative h-[80vh] w-[90vw] lg:w-[32.5vw] appearance-none">
+    <div className="mt-8 relative h-[80vh] w-[90vw] lg:w-[32.5vw] appearance-none">
       <motion.div
         drag="x"
         dragConstraints={{

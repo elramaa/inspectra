@@ -12,7 +12,9 @@ export default function Landing() {
         />
       </div>
       <div className="lg:w-3/5 text-justify lg:pr-40 text-shadow">
-        <h2 className="font-extrabold text-5xl pb-4">Lelana</h2>
+        <h2 className="font-yeseva font-extrabold text-5xl pb-4 tracking-widest">
+          lelana
+        </h2>
         <p className="pb-4">
           Lelana mengisahkan perjalanan melampaui batas ruang, waktu, dan jiwa,
           tempat para tokoh menghadapi tantangan, menemukan pelajaran, serta

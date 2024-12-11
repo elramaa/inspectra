@@ -35,5 +35,6 @@ export default [
       ],
       "react/prop-types": "off",
     },
+    extends: ["plugin:@react-three/recommended"],
   },
 ];

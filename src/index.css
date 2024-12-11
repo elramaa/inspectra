@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Varela+Round&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Varela+Round&family=Yeseva+One&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -16,6 +16,14 @@
 
   ::-webkit-scrollbar-thumb {
     @apply bg-slate-900 rounded-full;
+  }
+
+  * {
+    @apply outline-none;
+  }
+
+  button {
+    @apply block;
   }
 }
 

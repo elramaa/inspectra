@@ -5,7 +5,8 @@ export default {
     extend: {
       fontFamily: {
         sans: ["Outfit", "sans-serif"],
-        parkinsans: ["Varela Round", "sans-serif"],
+        varela: ["Varela Round", "sans-serif"],
+        yeseva: ["Yeseva One", "serif"],
       },
     },
   },
