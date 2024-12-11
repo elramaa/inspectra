@@ -2,14 +2,16 @@ export default function Landing() {
   return (
     <section className="w-full lg:h-[85vh] flex max-sm:flex-col justify-center items-center px-8  place-self-center text-white">
       <div className="lg:w-2/5 max-sm:pt-20 p-12">
-        <img src="mockup_book.png" alt="Mockup Book" className="object-cover" />
+        <img
+          src="mockup_book.png"
+          alt="Mockup Book"
+          className="object-cover"
+          style={{
+            filter: "drop-shadow(2px 10px 10px rgba(255, 255, 255, 0.4))",
+          }}
+        />
       </div>
-      <div
-        className="lg:w-3/5 text-justify lg:pr-40"
-        style={{
-          textShadow: "1px 1px 5px black",
-        }}
-      >
+      <div className="lg:w-3/5 text-justify lg:pr-40 text-shadow">
         <h2 className="font-extrabold text-5xl pb-4">Lelana</h2>
         <p className="pb-4">
           Lelana mengisahkan perjalanan melampaui batas ruang, waktu, dan jiwa,

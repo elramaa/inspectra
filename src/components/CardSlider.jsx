@@ -18,7 +18,7 @@ export default function CardSlider({ className, bookIndex, setBookIndex }) {
   }
 
   return (
-    <div className="relative h-[80vh] w-[90vw] lg:w-[30vw] appearance-none lg:mx-auto">
+    <div className="relative h-[80vh] w-[90vw] lg:w-[32.5vw] appearance-none">
       <motion.div
         drag="x"
         dragConstraints={{
@@ -39,7 +39,7 @@ export default function CardSlider({ className, bookIndex, setBookIndex }) {
         }}
         onDragStart={handleDragStart}
         onDragEnd={handleDragEnd}
-        className={`absolute left-0 w-auto grid auto-cols-[90vw] lg:auto-cols-[30vw] grid-flow-col ${className}`}
+        className={`absolute left-0 w-auto grid auto-cols-[90vw] lg:auto-cols-[32.5vw] grid-flow-col ${className}`}
       >
         {sinopsisCerpen.map(({ title, author, content }, index) => (
           <Card

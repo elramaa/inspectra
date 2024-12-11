@@ -18,3 +18,9 @@
     @apply bg-slate-900 rounded-full;
   }
 }
+
+@layer utilities {
+  .text-shadow {
+    text-shadow: 1px 1px 5px black;
+  }
+}
