@@ -18,7 +18,7 @@ export default function CardSlider({ className, bookIndex, setBookIndex }) {
   }
 
   return (
-    <div className="relative h-[80vh] w-[90vw] lg:w-[30vw] appearance-none mx-auto">
+    <div className="relative h-[80vh] w-[90vw] lg:w-[30vw] appearance-none lg:mx-auto">
       <motion.div
         drag="x"
         dragConstraints={{
@@ -84,7 +84,11 @@ function Card({ title, author, content, index, currentIndex }) {
         perspective: 500,
         ...styledAnimation(),
       }}
-      className="w-[90vw] lg:w-[32.5vw] h-full text-center bg-white rounded-2xl px-8 py-8 shadow-black shadow-lg"
+      className={`w-[90vw] lg:w-[32.5vw] h-full text-center rounded-2xl px-8 py-8 shadow-black shadow-lg bg-gradient-to-br ${
+        (index + 1) & 1
+          ? "from-blue-200 to-blue-100"
+          : "from-green-200 to-green-100"
+      }`}
     >
       <h3 className="font-bold text-2xl">{title}</h3>
       <span className="block font-extralight">{author}</span>
