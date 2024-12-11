@@ -14,7 +14,7 @@ export default function Dropdown({
     setIsOpen(false);
   }
   return (
-    <div className={`relative ${className}`}>
+    <div className={`max-w-[90vw] relative ${className}`}>
       <button
         className="flex items-center text-white gap-2 cursor-pointer text-shadow"
         onClick={() => setIsOpen(!isOpen)}
@@ -32,7 +32,7 @@ export default function Dropdown({
         />
       </button>
       <div
-        className={`max-h-40 bg-white rounded-2xl p-4 left-1/2 -translate-x-1/2 w-max absolute z-10 overflow-y-auto ${
+        className={`max-w-[90vw] max-h-40 bg-white rounded-2xl p-4 left-1/2 -translate-x-1/2 w-max absolute z-10 overflow-y-auto shadow-black/25 shadow-xl ${
           !isOpen && "hidden"
         }`}
       >
@@ -44,7 +44,7 @@ export default function Dropdown({
             }`}
             onClick={() => handleSelect(index)}
           >
-            {title}
+            {`${index + 1}. ${title}`}
           </button>
         ))}
       </div>
