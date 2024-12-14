@@ -15,7 +15,7 @@ const sinopsisCerpen = [
     author: "Aisha Putri Wardhana",
     title: "Senyum Oktober",
     content:
-      '""Bruk!"" Suara nyaring itu menggema di aula, menghentikan segalanya. Semua mata tertuju pada tangga tempat tubuh Rea tergeletak. Alea histeris, ""Rea!"" Dengan nafas tercekat, ia berlari menghampiri sahabatnya. Apakah kejadian ini ada hubungannya dengan buku hitam yang ia temukan kemarin? Ketika ia kembali ke malam sebelumnya, bayangan tulisan dalam buku itu mulai menghantui pikirannya: ""Tulislah dengan hati-hati, karena imajinasimu adalah kenyataan bagi orang lain."" Alea merasakan keringat dingin mengalir, segalanya mungkin belum berakhir.',
+      '"Bruk!" Suara nyaring itu menggema di aula, menghentikan segalanya. Semua mata tertuju pada tangga tempat tubuh Rea tergeletak. Alea histeris, "Rea!" Dengan nafas tercekat, ia berlari menghampiri sahabatnya. Apakah kejadian ini ada hubungannya dengan buku hitam yang ia temukan kemarin? Ketika ia kembali ke malam sebelumnya, bayangan tulisan dalam buku itu mulai menghantui pikirannya: "Tulislah dengan hati-hati, karena imajinasimu adalah kenyataan bagi orang lain." Alea merasakan keringat dingin mengalir, segalanya mungkin belum berakhir.',
   },
   {
     author: "Anggun Mavella Callista",
@@ -38,12 +38,14 @@ const sinopsisCerpen = [
   {
     author: "Danovanz Putra Suliswanto",
     title: "Topeng Malangan, Kisah di Balik Wajah",
-    content: "null",
+    content:
+      "Pagi itu, langit tampak mendung, seolah menggambarkan hati Fajar yang gelisah. Ia duduk di bangku taman sekolah, memutar-mutar bolpoin di tangannya. Surat dari universitas impiannya baru saja datang, membawa kabar yang seharusnya menggembirakan. Namun, di balik kebahagiaan itu, ia teringat janjinya pada almarhum ayahnya untuk menjaga warung keluarga. Di antara impian dan tanggung jawab, Fajar merasa terjebak. Baginya, memilih bukan hanya soal diri sendiri, tetapi juga tentang keluarga yang selalu menjadi prioritas.",
   },
   {
     author: "Deva Febria Zulfa",
     title: "Tenggelam dalam Mimpi",
-    content: "null",
+    content:
+      "Lovia, seorang gadis pemberani yang penasaran dengan segala hal. Hingga di suatu hari, ia memutuskan untuk pergi ke Paralayang bersama dengan teman-temannya. Namun, gadis yang pemberani itu secara tiba-tiba mengurungkan niatnya. Hal ini memicu banyak perdebatan. Apa yang terjadi? Apakah ada hubungannya dengan apa yang ia alami setiap hari?",
   },
   {
     author: "Donita Valencia Zulkarnain",
@@ -77,7 +79,7 @@ const sinopsisCerpen = [
   },
   {
     author: "Fiha Ainiyah Aulia",
-    title: "null",
+    title: "Di Bawah Hujan, di Atas Puncak",
     content:
       '"Mendaki bukan tentang siapa yang paling cepat atau paling kuat. Tapi tentang siapa yang paling berani untuk meminta maaf dan melangkah bersama." Skyseekers, geng kecil penggemar langit, memulai perjalanan ke Puncak Lumut yang penuh misteri. Ketegangan memuncak saat Dusk, dengan sifat keras kepalanya, menolak mendengarkan teman-temannya meski hujan deras mulai mengguyur. Dusuk terperosok, jatuh ke lumpur hujau lumut. Tak ada teman yang bisa menolong Dusk. Lantas, bagaimanakah nasib Dusk setelah itu?',
   },
@@ -94,7 +96,7 @@ const sinopsisCerpen = [
   },
   {
     author: "Jibril Shahbrani Aulia Thamrin",
-    title: "null",
+    title: "Karut",
     content: "null",
   },
   {
@@ -194,7 +196,8 @@ const sinopsisCerpen = [
   {
     author: "Tazakka Putra Ananta",
     title: "Petaka yang Terbayarkan",
-    content: "null",
+    content:
+      "Menceritakan seorang remaja yang sedang kebingungan memilih destinasi wisata untuk liburan. Kemudian ia menemukan ide untuk bermain ke Banyuwangi tepatnya di Bangsring dan Kawah Ijen. Ia berangkat bersama 3 temannya yaitu Toni, Ramadhan, dan Tino. Awalnya mereka sangat senang karena dapat berlibur dengan tenang saat menyelam di Bangsring. Akan tetapi petaka mulai terjadi saat mereka mendaki Kawah Ijen.",
   },
   {
     author: "Thaddeus Ariston",
