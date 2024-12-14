@@ -1,5 +1,33 @@
 import { useState } from "react";
 import { FaChevronDown } from "react-icons/fa";
+import { motion } from "motion/react";
+
+const variants = {
+  popup: {
+    init: {
+      scaleY: 0,
+      translateX: "-50%",
+      transformOrigin: "top",
+    },
+    show: (isOpen) => ({
+      scaleY: isOpen ? 1 : 0,
+      transition: {
+        duration: 0.7,
+      },
+    }),
+  },
+  button: {
+    init: {
+      rotateX: 0,
+    },
+    show: (isOpen) => ({
+      rotateX: isOpen ? 180 : 0,
+      transition: {
+        duration: 2,
+      },
+    }),
+  },
+};
 
 export default function Dropdown({
   data,
@@ -31,10 +59,12 @@ export default function Dropdown({
           }}
         />
       </button>
-      <div
-        className={`max-w-[90vw] max-h-40 bg-white rounded-2xl p-4 left-1/2 -translate-x-1/2 w-max absolute z-10 overflow-y-auto shadow-black/25 shadow-xl ${
-          !isOpen && "hidden"
-        }`}
+      <motion.div
+        className={`max-w-[90vw] max-h-40 bg-white rounded-2xl p-4 left-1/2 -translate-x-1/2 w-max absolute z-10 overflow-y-auto shadow-black/25 shadow-xl`}
+        variants={variants.popup}
+        initial="init"
+        animate="show"
+        custom={isOpen}
       >
         {data.map(({ title }, index) => (
           <button
@@ -47,7 +77,7 @@ export default function Dropdown({
             {`${index + 1}. ${title}`}
           </button>
         ))}
-      </div>
+      </motion.div>
     </div>
   );
 }

@@ -1,3 +1,5 @@
+import { motion } from "motion/react";
+
 export default function Landing() {
   return (
     <section className="w-full lg:h-[85vh] flex max-sm:flex-col justify-center items-center px-8 max-sm:gap-8 place-self-center text-white">
@@ -12,9 +14,13 @@ export default function Landing() {
         />
       </div>
       <div className="lg:w-3/5 text-justify lg:pr-40 text-shadow">
-        <h2 className="font-yeseva font-extrabold text-5xl pb-4 tracking-widest">
+        <motion.h2
+          className="w-fit font-yeseva font-extrabold text-5xl pb-4 tracking-widest"
+          initial={{ x: -200 }}
+          whileInView={{ x: 100 }}
+        >
           lelana
-        </h2>
+        </motion.h2>
         <p className="pb-4">
           Lelana mengisahkan perjalanan melampaui batas ruang, waktu, dan jiwa,
           tempat para tokoh menghadapi tantangan, menemukan pelajaran, serta
