@@ -2,10 +2,10 @@ import Header from "../components/Header";
 import Landing from "../sections/Landing";
 import BookSynopsis from "../sections/BookSynopsis";
 import Footer from "../components/Footer";
-import { useTitlePage } from "../hooks/useTitlePage";
+import { usePageTitle } from "../hooks/usePageTitle";
 
 export default function BookPage() {
-  useTitlePage("Lelana - Kumpulan Cerpen");
+  usePageTitle("Lelana - Kumpulan Cerpen");
   return (
     <div className="relative max-w-[100vw] overflow-hidden">
       <Header />
