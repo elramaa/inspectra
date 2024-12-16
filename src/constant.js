@@ -201,7 +201,7 @@ const sinopsisCerpen = [
   },
   {
     author: "Thaddeus Ariston",
-    title: "null",
+    title: "Sekarang",
     content:
       "Aris, Ethan, dan Varo adalah sabahat dari kecil. Tetapi karena keadaan tidak memungkinkan mereka bersama selamanya, mereka berpisah jalan. Namun, pada akhirnya Aris dan Varo bertemu lagi dan mereka menjalani hidupnya dengan masuk ke dalam dunia mafia. Suatu hari Aris dan Varo dikirim oleh bos mafia untuk bertransaksi kepada suatu klien. Aris dan Varo merasa ada yang aneh, namun tetap melakukan transaksi sesuai perintah bos mereka. Ternyata transaksi tersebut adalah jebakan yang dirancang oleh polisi, yang membuat Aris dan Varo terkepung oleh polisi. ",
   },
